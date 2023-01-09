@@ -1,14 +1,9 @@
 import { BumpChart } from "../components/BumpChart";
 import BackIcon from "../assets/icons/back.png";
 import { Attribute } from "../components/Attribute";
-import { useNavigate } from "react-router-dom";
+
 
 export function Particular({ airQualityIndex,navigate }) {
-
-  // const navigate = useNavigate();
-
-
-
   let graphData = [];
   let attributes = [];
   let aqi = airQualityIndex.data.aqi;

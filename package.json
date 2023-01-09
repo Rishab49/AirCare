@@ -11,7 +11,9 @@
   "dependencies": {
     "@nivo/bump": "^0.80.0",
     "@nivo/core": "^0.80.0",
+    "@nivo/tooltip": "0.80.0",
     "dotenv": "^16.0.3",
+    "prop-types": ">=15.5.10 <16.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.1"
